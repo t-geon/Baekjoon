@@ -6,10 +6,13 @@ int main() {
 	cin >> x;
 	cin >> y;
 
-	if (x > 0 && y > 0) { cout << "1"; }
-	else if (x < 0 && y > 0) { cout << "2"; }
-	else if (x < 0 && y < 0) { cout << "3"; }
-	else { cout << "4"; }
-
+	if (x > 0) {
+		if (y > 0) { cout << "1"; }
+		else { cout << "4"; }
+	}
+	else {
+		if (y > 0) { cout << "2"; }
+		else { cout << "3"; }
+	}
 	return 0;
 }
