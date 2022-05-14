@@ -7,3 +7,4 @@
 - string쓸 때 #include <string> string 길이는 변수이름.length()
 - 소수점 고정 출력할 때 cout<<fixed; 하고 cout.precision(소수점 몇번째까지 출력할지); 하고 cout<<하면됨
 - 반올림은 #include <cmath>하고  round(변수 * 1000) / 1000 -> 소수점 4번째 자리에서 반올림
+- vector는 #include<vector>해서 사용, vector<자료형> 변수명(크기);, fill으로 초기화 가능  ->fill(~.begin(), ~.end(), 초기화 값);
