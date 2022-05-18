@@ -1,22 +1,16 @@
 #include<iostream>
 using namespace std;
 
-void fac(int a, int* result) {
-	if (a > 1) { 
-		(*result)*= a;
-		fac(a-1, result);
-	}
+int fac(int a) {
+	if (a <= 1) { return 1; }
+	return fac(a - 1)*a;
 }
 
 int main() {
 	int num;
 	cin >> num;
 
-	int result = 1;
-
-	fac(num, &result);
-
-	cout << result;
+	cout << fac(num);
 
 	return 0;
 }
