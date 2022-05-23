@@ -9,3 +9,4 @@
 - 반올림은 #include <cmath>하고  round(변수 * 1000) / 1000 -> 소수점 4번째 자리에서 반올림
 - vector는 #include<vector>해서 사용, vector<자료형> 변수명(크기);, fill으로 초기화 가능  ->fill(~.begin(), ~.end(), 초기화 값);
 - string 공백 포함 입력 받으려면 #include<string>하고 getline(cin, string변수명) 하면 입력받기 가능
+- 
