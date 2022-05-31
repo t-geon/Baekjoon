@@ -16,3 +16,4 @@
 - #include <'set'>에서 set은 오름차순으로 정렬(중복 안됨), multiset은 오름차순으로 정렬(중복가능)
     - set<int, greater<int>> set;  // 내림차순
     - set.erase(set.find(3));   //set에 있는 3을 제거 (여러개 있으면 1개만 제거)
+    - set.find(찾을 값); 했을 때 없으면 set.end()를 
