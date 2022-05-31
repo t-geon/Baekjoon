@@ -17,3 +17,7 @@
     - set<int, greater<int>> set;  // 내림차순
     - set.erase(set.find(3));   //set에 있는 3을 제거 (여러개 있으면 1개만 제거)
     - set.find(찾을 값); 했을 때 없으면 set.end()를 
+- #include <'map'>은 set과 다르게 pair형태, map은 오름차순으로 정렬(키 중복 안됨), multimap은 오름차순으로 정렬(키 중복 가능)
+    - map<int, string, greater<int>> m;   //내림차순
+    - map.insert(make_pair(4, "d") );     //4라는 키로 d값 삽입
+    
