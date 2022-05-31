@@ -14,3 +14,4 @@
     - priority_queue<int, vector<int>, greater<int> > q;	// 오름차순
     - priority_queue<int, vector<int>, less<int> > q;	// 내림차순
 - #include <'set'>에서 set은 오름차순으로 정렬(중복 안됨), multiset은 오름차순으로 정렬(중복가능)
+    - set<int, greater<int>> set;  // 내림차순
