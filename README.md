@@ -13,3 +13,4 @@
 - #include <'queue'>에서 priority_queue 사용하면 오름, 내림차순으로 큐에서 뺄 수 있음 
     - priority_queue<int, vector<int>, greater<int> > q;	// 오름차순
     - priority_queue<int, vector<int>, less<int> > q;	// 내림차순
+- #include <'set'>에서 set은 오름차순으로 정렬(중복 안됨), multiset은 오름차순으로 정렬(중복가능)
