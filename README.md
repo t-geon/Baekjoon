@@ -24,4 +24,6 @@
 - #include <'map'>은 set과 다르게 pair형태, map은 오름차순으로 정렬(키 중복 안됨), multimap은 오름차순으로 정렬(키 중복 가능)
     - map<int, string, greater<int>> m;   //내림차순
     - map.insert(make_pair(4, "d") );     //4라는 키로 d값 삽입
+    - multimap<int,int> mm;하면 첫번째 int에 맞게 오름차순 정렬됨
+    - multimap<int, int, greater<int>> mm;하면 첫번째 int 맞게 내림차순 됨
     
