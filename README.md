@@ -12,6 +12,7 @@
 - vector는 #include<'vector'>해서 사용, vector<자료형> 변수명(크기);
     - vector를 사용할 때 iterator는 삽입, 삭제시 다시 정해줘야한다.
     - vector 거꾸로 출력 -> for (vector<int>::reverse_iterator r_iter = vec.rbegin(); r_iter != vec.rend(); r_iter++) {cout << *r_iter << endl;}
+    - vector 안에 pair로 2개 값 묶어서 넣을 수 있음
 - string 공백 포함 입력 받으려면 #include<string>하고 getline(cin, string변수명) 하면 입력받기 가능
 - sort(-,-,comp)하면 comp에서 return a<b이면 오름차순(작->큰) return a>b이면 내림차순(큰->작)
 - #include <'queue'>에서 priority_queue 사용하면 오름, 내림차순으로 큐에서 뺄 수 있음 
