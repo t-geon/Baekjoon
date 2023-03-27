@@ -1,14 +1,14 @@
-# [Bronze IV] A/B - 1008 
+# [Bronze V] A/B - 1008 
 
 [문제 링크](https://www.acmicpc.net/problem/1008) 
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 31256 KB, 시간: 40 ms
 
 ### 분류
 
-사칙연산(arithmetic), 구현(implementation), 수학(math)
+수학, 구현, 사칙연산
 
 ### 문제 설명
 
