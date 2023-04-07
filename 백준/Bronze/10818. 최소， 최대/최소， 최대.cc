@@ -2,18 +2,16 @@
 using namespace std;
 
 int main() {
-	int c, max = -1000000, min = 1000000;
+	int c, max = -1000001, min = 1000001;
 	cin >> c;
 
-	int *n=new int[c];
+	int num = 0;
 	for (int i = 0; i < c; i++) {
-		cin >> n[i];
+		cin >> num;
+		if (num > max) { max = num; }
+		if (num < min) { min = num; }
 	}
 
-	for (int i = 0; i < c; i++) {
-		if (n[i] > max) { max = n[i]; }
-		if (n[i] < min) { min = n[i]; }
-	}
 	cout << min << " " << max;
 
 	return 0;
