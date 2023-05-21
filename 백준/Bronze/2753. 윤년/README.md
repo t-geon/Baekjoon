@@ -1,14 +1,14 @@
-# [Bronze IV] 윤년 - 2753 
+# [Bronze V] 윤년 - 2753 
 
 [문제 링크](https://www.acmicpc.net/problem/2753) 
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 31256 KB, 시간: 40 ms
 
 ### 분류
 
-구현(implementation), 수학(math)
+구현, 사칙연산, 수학
 
 ### 문제 설명
 
