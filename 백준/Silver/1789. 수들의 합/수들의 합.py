@@ -1,5 +1,5 @@
 a = int(input())
-sum, count =0, 0
+sum, count =1, 1
 
 while sum<a:
     count+=1
